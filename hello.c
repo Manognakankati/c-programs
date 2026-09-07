@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    float c,f ;
+    printf("enter temp value in farenheit ln");
+    scanf("%f",&f);
+    c=(f-32)*5.0/9.0;
+    printf("temperature in celsius scale %f,c");
+   
+    return 0 ;
+
+}
